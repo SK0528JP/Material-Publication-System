@@ -1,0 +1,21 @@
+# Disable directory browsing
+Options -Indexes
+
+# Enable RewriteEngine
+RewriteEngine On
+
+# Redirect www.example.com to example.com
+RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
+RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
+
+# Set custom error pages
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+ErrorDocument 403 /403.html
+
+# Set default index file
+DirectoryIndex index.html index.php
+
+# Set PHP variables
+php_value max_execution_time 60
+php_value memory_limit 128M
