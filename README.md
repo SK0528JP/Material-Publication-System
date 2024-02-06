@@ -18,6 +18,8 @@
     </ol>
     <h3>ファイル形式について</h3>
     <p>各資料・レポートのファイル形式はPDF・TXT形式のどちらかで公開しています。</p>
+    <h3>システム運用者</h3>
+    <p>SK0528JP</p>
     <p><a href="material-list.html" class="button-style">資料・レポート一覧</a></p>
 </div>
 </body>
